@@ -1,0 +1,14 @@
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\bin\Debug\UnityEditorSelecter.exe.config
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\bin\Debug\UnityEditorSelecter.exe
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\bin\Debug\UnityEditorSelecter.pdb
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.csprojAssemblyReference.cache
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\MainWindow.g.cs
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\App.g.cs
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter_MarkupCompile.cache
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter_MarkupCompile.lref
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\MainWindow.baml
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.g.resources
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.Properties.Resources.resources
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.csproj.GenerateResource.cache
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.exe
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.pdb
