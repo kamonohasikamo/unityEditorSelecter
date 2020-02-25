@@ -5,8 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UnityEditorSelecter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="UnityEditor拡張セレクター" Height="600" Width="800">
     <Grid>
-        
+        <Label Content="UnityEditor拡張セレクター" HorizontalAlignment="Left" Margin="39,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Unityに入れたいEditor拡張を選択して、出力ボタンを押してください。" HorizontalAlignment="Left" Margin="39,50,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <ScrollViewer Height="430" Margin="10,74,22,0" VerticalAlignment="Top">
+            <StackPanel Margin = "15,15,0,0">
+                <CheckBox VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
+                    <CheckBox.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Resources/Hierarchy_sima.png" Margin = "12,0,0,0"></Image>
+                            <TextBlock Margin = "18,8,0,0" FontSize = "20" FontWeight = "Bold"> Hierarchyをシマシマに表示させます。</TextBlock>
+                        </StackPanel>
+                    </CheckBox.Content>
+                </CheckBox>
+                <CheckBox VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
+                    <CheckBox.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Resources/Hierarchy_checkbox.png" Margin = "12,0,0,0"></Image>
+                            <TextBlock Margin = "18,8,0,0" FontSize = "20" FontWeight = "Bold" >
+                                <Run Text="オブジェクトの横に表示非表示の"/>
+                                <LineBreak/>
+                                チェックボックスを表示させます。
+                            </TextBlock>
+                        </StackPanel>
+                    </CheckBox.Content>
+                </CheckBox>
+                <CheckBox VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
+                    <CheckBox.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Resources/Tool_shortcut.png" Margin = "12,0,0,0"></Image>
+                            <TextBlock Margin = "18,8,0,0" FontSize = "20" FontWeight = "Bold"> 
+                                <Run Text="ツールタグに"/>
+                                <LineBreak/>
+                                <Run Text="ショートカットを"/>
+                                <LineBreak/>
+                                <Run Text="登録します。"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </CheckBox.Content>
+                </CheckBox>
+            </StackPanel>
+        </ScrollViewer>
+        <Button Content="出力" Margin="640,524,22,0" VerticalAlignment="Top" Height="35" FontSize="14"/>
     </Grid>
 </Window>
