@@ -11,4 +11,8 @@ C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityE
 C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.csproj.GenerateResource.cache
 C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.exe
 C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.pdb
-C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.csprojAssemblyReference.cache
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.csproj.CopyComplete

@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="UnityEditor拡張セレクター" Height="600" Width="800">
     <Grid>
-        <Label Content="UnityEditor拡張セレクター" HorizontalAlignment="Left" Margin="39,10,0,0" VerticalAlignment="Top" FontSize="24"/>
-        <Label Content="Unityに入れたいEditor拡張を選択して、出力ボタンを押してください。" HorizontalAlignment="Left" Margin="39,50,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <ScrollViewer Height="430" Margin="10,74,22,0" VerticalAlignment="Top">
+        <Label Content="UnityEditor拡張セレクター" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="入れたいEditor拡張を選択して、出力ボタンを押してください。" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <ScrollViewer Margin="10,74,22,65">
             <StackPanel Margin = "15,15,0,0">
                 <CheckBox VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
                     <CheckBox.Content>
@@ -47,6 +47,7 @@
                 </CheckBox>
             </StackPanel>
         </ScrollViewer>
-        <Button Content="出力" Margin="640,524,22,0" VerticalAlignment="Top" Height="35" FontSize="14"/>
+        <Label Content="出力させたいプロジェクトのAssetsファイルを選択してください。" HorizontalAlignment="Left" Margin="10,0,0,12" FontSize="18" Height="34" VerticalAlignment="Bottom"/>
+        <Button Content="出力" Margin="640,0,22,10" FontSize="14" Click="outPutButtonClick" Height="35" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
