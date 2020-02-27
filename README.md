@@ -6,4 +6,4 @@ A tool to automatically generate Unity editor extensions and folders.<br>
 You can add Unity editor extensions and choose from them.<br>
 
 ## how to use
- 1 VisualStudioがある場合、「UnityEditorSelecter.sln」をVisualStudioで起動します。
+ 1. VisualStudioがある場合、「UnityEditorSelecter.sln」をVisualStudioで起動します。
