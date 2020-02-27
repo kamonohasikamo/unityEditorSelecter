@@ -32,4 +32,14 @@ Select the "Assets" folder in your Unity project.
 6. Have a fun Unity life!!:)
 
 ## How to add UnityEditor
-新しくUnityEditorを追加する場合、
+新しくUnityEditorを追加する場合、VisualStudioが必要となってきます。<br>
+「UnityEditorSelecter.sln」を起動し、MainWindow.xamlを開き、CheckBoxを追加します。<br>
+画像等を追加し、MainWindow.xaml.csを開きます。<br>
+記述されているようにソースコードを追加します。<br>
+作成したUnityEditor拡張のソースは「EditorScript」に入れてください。<br>
+
+When adding a new UnityEditor, VisualStudio is required. <br>
+Start "UnityEditorSelecter.sln", open MainWindow.xaml and add CheckBox. <br>
+Add an image etc. and open MainWindow.xaml.cs. <br>
+Add source code as described. <br>
+Put the source of the created UnityEditor extension in "EditorScript". <br>
