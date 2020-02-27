@@ -18,6 +18,8 @@ Unityプロジェクトの「Assets」フォルダを選択します。
 ![message](https://user-images.githubusercontent.com/39897091/75446845-868eb300-59ab-11ea-8445-2ad259b9f0d3.png)
 6. 楽しいUnityライフを＾＾＾＾
 
+
+
 1. If you have VisualStudio, launch "UnityEditorSelecter.sln" in VisualStudio.<br>
 If you do not have it, you can launch it with "UnityEditorSelecter / bin / Debug / UnityEditorSelecter.exe". (maybe...)
 2. When started, the following screen is displayed.<br>
