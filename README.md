@@ -8,5 +8,6 @@ You can add Unity editor extensions and choose from them.<br>
 ## how to use
 1. VisualStudioがある場合、「UnityEditorSelecter.sln」をVisualStudioで起動します。<br>
 ない場合は「UnityEditorSelecter/bin/Debug/UnityEditorSelecter.exe」で起動できます。(たぶん)
-2. item2
+2. 起動すると、以下のような画面が表示されます。
+
 3. item3
