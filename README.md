@@ -30,3 +30,6 @@ Select the "Assets" folder in your Unity project.
 5. If output correctly, the following message box will be displayed.<br>
 ![message](https://user-images.githubusercontent.com/39897091/75446845-868eb300-59ab-11ea-8445-2ad259b9f0d3.png)
 6. Have a fun Unity life!!:)
+
+## How to add UnityEditor
+新しくUnityEditorを追加する場合、
