@@ -111,5 +111,8 @@
   <ItemGroup>
     <Resource Include="Resources\Tool_shortcut.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ConsoleAllDelete.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

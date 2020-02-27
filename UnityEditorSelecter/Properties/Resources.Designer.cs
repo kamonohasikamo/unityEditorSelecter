@@ -81,6 +81,66 @@ namespace UnityEditorSelecter.Properties {
         }
         
         /// <summary>
+        ///   using System.Linq;
+        ///using UnityEngine;
+        ///using UnityEditor;
+        ///
+        ///public static class HierarchyChangeColorEditor
+        ///{
+        ///	// 横幅
+        ///	private const int width = 16;
+        ///
+        ///
+        ///	[InitializeOnLoadMethod]
+        ///	private static void HierarchyChangeColor()
+        ///	{
+        ///		EditorApplication.hierarchyWindowItemOnGUI += changeGUI;
+        ///	}
+        ///
+        ///	private static void changeGUI(int instanceId, Rect selectionRect)
+        ///	{
+        ///		//=============================================
+        ///		// 一行おきに色を変えてHierarchyを見やすくする
+        ///		//=============================================
+        ///		var  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string HierarchyChangeColorEditor {
+            get {
+                return ResourceManager.GetString("HierarchyChangeColorEditor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   using System.Linq;
+        ///using UnityEngine;
+        ///using UnityEditor;
+        ///
+        ///public static class HierarchyCheckBoxEditor
+        ///{
+        ///	// 横幅
+        ///	private const int width = 16;
+        ///
+        ///
+        ///	[InitializeOnLoadMethod]
+        ///	private static void HierarchyCheckBoxEditor()
+        ///	{
+        ///		EditorApplication.hierarchyWindowItemOnGUI += setActiveBoxView;
+        ///	}
+        ///
+        ///	private static void setActiveBoxView(int instanceId, Rect selectionRect)
+        ///	{
+        ///		//=============================================
+        ///		// SetActive
+        ///		// チェックボックスを表示
+        ///		//====================================== [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string HierarchyCheckBoxEditor {
+            get {
+                return ResourceManager.GetString("HierarchyCheckBoxEditor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string image1 {

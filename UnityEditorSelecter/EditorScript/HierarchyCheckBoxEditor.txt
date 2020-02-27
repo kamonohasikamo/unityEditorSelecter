@@ -1,0 +1,43 @@
+using System.Linq;
+using UnityEngine;
+using UnityEditor;
+
+public static class HierarchyCheckBoxEditor
+{
+	// 横幅
+	private const int width = 16;
+
+
+	[InitializeOnLoadMethod]
+	private static void hierarchyCheckBoxEditor()
+	{
+		EditorApplication.hierarchyWindowItemOnGUI += setActiveBoxView;
+	}
+
+	private static void setActiveBoxView(int instanceId, Rect selectionRect)
+	{
+		//=============================================
+		// SetActive
+		// チェックボックスを表示
+		//=============================================
+		var atach = EditorUtility.InstanceIDToObject(instanceId) as GameObject;
+
+		if (atach == null)
+		{
+			return;
+		}
+
+		var setActivePos = selectionRect;
+		setActivePos.x = setActivePos.xMax - width - 10;
+		setActivePos.width = width;
+
+		var newActiveBox = GUI.Toggle(setActivePos, atach.activeSelf, string.Empty);
+
+		if(newActiveBox == atach.activeSelf)
+		{
+			return;
+		}
+
+		atach.SetActive(newActiveBox);
+	}
+}

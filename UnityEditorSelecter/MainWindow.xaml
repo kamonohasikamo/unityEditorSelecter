@@ -11,7 +11,7 @@
         <Label Content="入れたいEditor拡張を選択して、出力ボタンを押してください。" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" FontSize="18"/>
         <ScrollViewer Margin="10,74,22,65">
             <StackPanel Margin = "15,15,0,0">
-                <CheckBox VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
+                <CheckBox x:Name="hierarchyChangeColor" VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
                     <CheckBox.Content>
                         <StackPanel Orientation="Horizontal">
                             <Image Source="Resources/Hierarchy_sima.png" Margin = "12,0,0,0"></Image>
@@ -19,7 +19,7 @@
                         </StackPanel>
                     </CheckBox.Content>
                 </CheckBox>
-                <CheckBox VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
+                <CheckBox x:Name="hierarchyCheckBox" VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
                     <CheckBox.Content>
                         <StackPanel Orientation="Horizontal">
                             <Image Source="Resources/Hierarchy_checkbox.png" Margin = "12,0,0,0"></Image>
@@ -31,7 +31,7 @@
                         </StackPanel>
                     </CheckBox.Content>
                 </CheckBox>
-                <CheckBox VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
+                <CheckBox x:Name="toolShortCut" VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
                     <CheckBox.Content>
                         <StackPanel Orientation="Horizontal">
                             <Image Source="Resources/Tool_shortcut.png" Margin = "12,0,0,0"></Image>
@@ -41,6 +41,18 @@
                                 <Run Text="ショートカットを"/>
                                 <LineBreak/>
                                 <Run Text="登録します。"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </CheckBox.Content>
+                </CheckBox>
+                <CheckBox x:Name="consoleAllDelete" VerticalAlignment = "Top" Height = "200" FontSize = "20" Margin = "8,8,69,8" Padding = "7,0,0,0">
+                    <CheckBox.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Resources/ConsoleAllDelete.png" Margin = "12,0,0,0"></Image>
+                            <TextBlock Margin = "18,8,0,0" FontSize = "20" FontWeight = "Bold"> 
+                                <Run Text="cを押すと"/>
+                                <LineBreak/>
+                                <Run Text="コンソールをすべて消せます。"/>
                             </TextBlock>
                         </StackPanel>
                     </CheckBox.Content>

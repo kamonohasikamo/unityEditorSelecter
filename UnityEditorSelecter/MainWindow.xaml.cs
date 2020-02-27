@@ -49,10 +49,46 @@ namespace UnityEditorSelecter
                 showData += createResourcesFolder(filePath);
                 showData += createEditorFolder(filePath);
                 showData += createPluginsFolder(filePath);
-                MessageBox.Show(showData);
+                copySelectUnityEditor(filePath);
+                MessageBox.Show(showData, "メッセージボックス", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+        //=============================================================
+        // copy UnityEditorScript function
+        //=============================================================
+        private void copySelectUnityEditor(string filePath)
+        {
+            string editorPath = (filePath + "\\Editor");
+            string copyPath = "";
+            if (Directory.Exists(editorPath))
+            {
+
+                if ((bool)hierarchyChangeColor.IsChecked)
+                {
+                    copyPath = (editorPath + "\\HierarchyChangeColorEditor.cs");
+                    File.Copy("../../EditorScript/HierarchyChangeColorEditor.txt", copyPath);
+                }
+                if ((bool)hierarchyCheckBox.IsChecked)
+                {
+                    copyPath = (editorPath + "\\HierarchyCheckBoxEditor.cs");
+                    File.Copy("../../EditorScript/HierarchyCheckBoxEditor.txt", copyPath);
+                }
+                if ((bool)toolShortCut.IsChecked)
+                {
+                    copyPath = (editorPath + "\\ShortcutsControllerEditor.cs");
+                    File.Copy("../../EditorScript/ShortcutsControllerEditor.txt", copyPath);
+                }
+                if ((bool)consoleAllDelete.IsChecked)
+                {
+                    copyPath = (editorPath + "\\ConsoleAllDelete.cs");
+                    File.Copy("../../EditorScript/ConsoleAllDelete.txt", copyPath);
+                }
             }
         }
 
+        //=============================================================
+        // create folder function
+        //=============================================================
         private string createPrefabsFolder(string filePath)
         {
             string prefabsFilePath = (filePath + "/Prefabs");

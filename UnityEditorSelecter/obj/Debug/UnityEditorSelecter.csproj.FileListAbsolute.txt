@@ -16,3 +16,4 @@ C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\bin\Debug\Micros
 C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\bin\Debug\Microsoft.WindowsAPICodePack.xml
 C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
 C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.csproj.CopyComplete
+C:\Users\user\Documents\UnityEditorSelecter\UnityEditorSelecter\obj\Debug\UnityEditorSelecter.csprojAssemblyReference.cache

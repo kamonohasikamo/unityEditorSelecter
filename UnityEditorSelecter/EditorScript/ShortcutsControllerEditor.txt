@@ -1,0 +1,35 @@
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using UnityEngine;
+using System.Text.RegularExpressions;
+using System.Reflection;
+
+public class ShortcutsControllerEditor : EditorWindow
+{
+	//=============================================
+	// シーンの遷移のショートカットを登録
+	// 上部のMenuItemを編集すれば別のボタンに返れる
+	// （SceneはUnityの設定で登録してから）
+	//=============================================
+	
+	// Shift + F10
+	[MenuItem("Tools/Game #F10")]
+	private static void shortCutGame()
+	{
+		EditorSceneManager.OpenScene("Assets/Scenes/Game.unity", OpenSceneMode.Single);
+	}
+
+	// Shift + F11
+	[MenuItem("Tools/Result #F11")]
+	private static void shortCutResult()
+	{
+		EditorSceneManager.OpenScene("Assets/Scenes/Result.unity", OpenSceneMode.Single);
+	}
+
+	// Shift + F12
+	[MenuItem("Tools/Start #F12")]
+	private static void shortCutStart()
+	{
+		EditorSceneManager.OpenScene("Assets/Scenes/Start.unity", OpenSceneMode.Single);
+	}
+}
